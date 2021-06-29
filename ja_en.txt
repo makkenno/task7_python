@@ -1,0 +1,9 @@
+<_io.TextIOWrapper name='./ja.txt' mode='r' encoding='utf-8_sig'>
+It's an apple. Do you like this?
+
+リンゴだ。あなたはこれを好きですか？
+
+Are you Japanese?
+日本人ですか？
+
+finished
