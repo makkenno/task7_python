@@ -1,3 +1,4 @@
+# テキストファイルを訳してくれる
 from googletrans import Translator
 import sys
 
