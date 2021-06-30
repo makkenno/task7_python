@@ -7,8 +7,8 @@ end_point="index.html"
 size=(700,600)
 
 @ eel.expose
-def translate(line):
-  translated_text = translate_line(line)
+def translate(line, src, dist):
+  translated_text = translate_line(line, src, dist)
   eel.displayText(translated_text)
     
 desktop.start(app_name,end_point,size)

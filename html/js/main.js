@@ -1,10 +1,11 @@
 const translateBtn = document.getElementById("translate-btn");
 
 translateBtn.addEventListener('click', () => {
-  console.log(1);
   const inputText = document.getElementById("input-text").value;
   if(inputText != "") {
-    eel.translate(inputText);
+    const src = document.getElementById('src').value;
+    const dest = document.getElementById("dest").value;
+    eel.translate(inputText, src, dest);
   } else {
     alert("翻訳するテキストを入力してください。")
   }

@@ -1,9 +1,8 @@
 from googletrans import Translator
 
-def translate_line(line):
+def translate_line(line, src, dest):
   translator = Translator()
-
-  translated = translator.translate(line, dest="ja")
+  translated = translator.translate(line, src=src, dest=dest)
   return translated.text
 
 if __name__ == "__main__":
